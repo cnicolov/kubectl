@@ -8,4 +8,4 @@ RUN apk add --update ca-certificates openssh-client \
   && chmod +x /usr/local/bin/kubectl \
   && apk add python python-dev py-pip build-base \
   && rm /var/cache/apk/* \
-  && pip install pytest tox
+  && pip install requests pytest tox
